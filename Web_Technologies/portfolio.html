@@ -3,10 +3,90 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Portfolio Website</title>
+		<style>
+			body {
+				padding: 0;
+				margin: 0;
+			}
+			nav {
+				display: flex;
+				justify-content: space-around;
+				border: 1px solid rgb(136, 206, 253);
+			}
+			h3 {
+				padding: 0;
+			}
+			.np {
+				margin: 30px;
+				padding: 30px;
+				border: 1px solid red;
+			}
+			a {
+				text-decoration: none;
+				color: cornflowerblue;
+			}
+		</style>
 	</head>
 	<body>
 		<header>
 			<nav>
+				<a href="#home"><h3>Home</h3></a>
+				<a href="#about"><h3>About</h3></a>
+				<a href="#projects"><h3>Projects</h3></a>
+			</nav>
+		</header>
+		<main>
+			<section id="home">
+				<h1>HOME</h1>
+					<ul class="np">
+						<li>HTML (HyperText Markup Language) is the standard markup language used to create web pages and web applications.
+						</li>
+						<li>It is the foundation of the World Wide Web, serving as the backbone for structuring and presenting content on the internet. 
+						</li>
+						<li>HTML consists of various elements, or tags, that define different parts of a web page, such as headings, paragraphs, lists, links, images, forms, and more.
+						HTML documents are saved with the .html or .htm file extension and are typically composed of two main sections: the &lt;head&gt; and the &lt;body&gt;. 
+						</li>
+						<li>The &lt;head&gt; section contains metadata and information about the web page, such as its title, character encoding, styles, scripts, and other resources. 
+						</li>
+						<li>The &lt;body&gt; section, on the other hand, contains the actual content that is displayed to the user, including text, images, videos, and interactive elements.
+						By combining HTML with Cascading Style Sheets (CSS) and JavaScript, web developers can create visually appealing, interactive, and dynamic web pages. 
+						</li>	
+						<li>HTML is relatively easy to learn and provides a solid foundation for beginners to start their web development journey. With its versatility and widespread use, HTML remains a crucial skill for anyone interested in creating or managing web content.
+						</li>
+					</ul>
+			</section>
+			<section id="about">
+				<h1>ABOUT</h1>
+				<p class="np">As a Junior Front End Developer, you might work on the following tasks:
 
+					Implementing user interfaces and web page layouts using HTML, CSS, and JavaScript.
+					Optimizing websites for various devices and browsers.
+					Collaborating with designers to convert design mockups into functional web pages.
+					Debugging and resolving issues in existing front-end code.
+					Implementing responsive design principles to ensure websites adapt to different screen sizes.
+					Creating reusable code components and following best practices for maintainability.
+				
+					Here's a list of fake contacts for a Junior Front End Developer:
+				
+					Name: John Doe
+					Email: john.doe@example.com
+					Phone: (123) 456-7890
+					LinkedIn: linkedin.com/in/john-doe-junior-front-end-developer
+					GitHub: github.com/johndoejunior
+				</p>
+			</section>
+			<section id="projects">
+				<h1>PROJECTS</h1>
+				<ul class="np">
+					<li><b>Portfolio Website:</b> A personal website displaying your skills, experience, and previous projects, built using HTML, CSS, and JavaScript. It might include a responsive design, animations, and interactive elements to engage visitors.</li>
+					<li><b>E-commerce Landing Page:</b> A single-page website for an e-commerce store, featuring product listings, descriptions, and a shopping cart. The project would involve implementing a clean layout, ensuring cross-browser compatibility, and optimizing performance.</li>
+					<li><b>Interactive Form:</b> A form with client-side validation, error handling, and dynamic content updates using JavaScript. The form might include various input types, such as text, checkboxes, radio buttons, and dropdowns.</li>
+					<li><b>Newsletter Signup:</b> A simple web page with an email input field and a submit button, using HTML and CSS. The project would involve integrating a third-party email marketing service, such as Mailchimp, for handling subscriptions.</li>
+					<li><b>Weather App:</b> A web application that fetches real-time weather data from a public API and displays it in an easy-to-read format. The app would involve using JavaScript to fetch data, parse JSON, and manipulate the Document Object Model (DOM) to display the information.</li>
+					<li><b>Image Gallery:</b> A web page with a grid of images that can be clicked to view a larger version. The project would involve using HTML to structure the content, CSS for styling, and JavaScript for handling user interactions and displaying modal windows.
+					</li>
+				</ul>					
+			</section>
+		</main>
 	</body>
 </html>
