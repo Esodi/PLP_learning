@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Image Linking in HTML</title>
+		<meta charset="utf-8">
+		<style>
+			body {
+				padding: 0;
+				margin: 0;
+			}
+			.navi {
+				display: flex;
+				justify-content: space-around;
+				border-bottom: 1px solid gray;
+			}
+			footer {
+				border-top: 1px solid gray;
+				margin-top: 5%;
+			}
+			.foot {
+				text-align: center;
+				font-size: small;
+				padding: 0;
+			}
+			.lnk {
+				text-decoration: none;
+				color: rgb(41, 29, 29);
+				padding: 1.5%;
+			}
+			.lnk:hover {
+				color: blue;
+			}
+			.pic {
+				width: 500px;
+				position: relative;
+				border-radius: 10px;
+				overflow: hidden;
+			}
+			main, .home, .tech, figure, .pic {
+				margin-top: 1;
+			}
+			#home {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				grid-gap: 15%;
+				top: 10%;
+				position: relative;
+			}
+			.tech1 {
+				top: 30%;
+				position: relative;
+				font-size: 150%;
+			}
+			.msg
+			{
+				margin: 1.5%;
+				margin-bottom: 5%;
+				border-bottom: 1px solid rgb(0, 17, 255);
+				border-top: 1px solid rgb(0, 17, 255);
+			}
+			.techw {
+				color:rgb(0, 17, 255);
+			}
+			.nature {
+				color: rgb(6, 134, 13);
+				top: 40%;
+				position: relative;
+				left: 40%;
+				font-size: 200%;
+			}
+			.gal {
+				display: grid;
+				grid-template-columns: repeat(3, 2fr);
+				gap: 1%;
+			}
+			.Nat {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+			}
+			.pc {
+				border-radius: 10px;
+				overflow: hidden;
+			}
+			.fd {
+				color: rgb(238, 139, 19);
+				top: 40%;
+				position: relative;
+				left: 40%;
+				font-size: 200%;
+			}
+			.Nat {
+				margin-bottom: 5%;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav class="navi">
+				<a href="#home" class="lnk">HOME</a>
+				<a href="#gallery" class="lnk">GALLERY</a>
+				<a href="#menu" class="lnk">MENU</a>
+			</nav>
+		</header>
+		<main>
+			<div id="home">
+				<div class="tech">
+					<figure>
+						<a href="https://www.canalys.com/insights/Generative-AI-cybersecurity-ecosystem" target="_blank"><img src="tech.jpg" alt="Technology" width="400px" height="400px" class="pic"></a>
+					</figure>
+				</div>
+				<div class="tech1">
+					<h1 class="techw">Technology</h1>
+				</div>
+			</div>
+			<div class="msg">
+				<p><b>Welcome to Week 2 Assignment Website - Your Gateway to the World of Technology!</b></bWelcome></p>
+				<p>Welcome aboard to a virtual realm where innovation thrives, and possibilities are endless. Here, we are dedicated to bringing you the latest insights, trends, and breakthroughs from the ever-evolving world of technology</p>
+				<p>Whether you're a seasoned techie, an aspiring developer, a curious learner, or simply someone intrigued by the wonders of modern innovation, you've come to the right place. Here, you'll discover a treasure trove of articles, guides, reviews, and discussions covering a wide array of tech topics.</p>
+			</div>
+			<div id="gallery">
+				<div class="Nat">
+					<div id="gallery">
+						<h1 class="nature">Nature</h1>
+					</div>
+					<div class="gal">
+							<a href="https://www.biologyonline.com/dictionary/biodiversity" target="_blank"><img src="1.jpg" alt="Biodiversity" width="200px" height="200px" class="pc"></a>
+							<a href="https://climate.nasa.gov/effects/" target="_blank"><img src="2.webp" alt="Climate Change" width="200px" height="200px" class="pc"></a>
+							<a href="https://www.ecomatcher.com/protect-conserve-prevent-and-reverse-a-timely-refresher/" target="_blank"><img src="3.jpg" alt="Conservation" width="200px" height="200px" class="pc"></a>
+							<a href="https://en.wikipedia.org/wiki/Wildlife" target="_blank"><img src="9.jpeg" alt="Wildlife" width="200px" height="200px" class="pc"></a>
+							<a href="https://en.wikipedia.org/wiki/Geology" target="_blank"><img src="5.jpeg" alt="Geology" width="200px" height="200px" class="pc"></a>
+							<a href="https://education.nationalgeographic.org/resource/oceanography/" target="_blank"><img src="6.jpeg" alt="Oceanography" width="200px" height="200px" class="pc"></a>
+							<a href="https://education.nationalgeographic.org/resource/paleontology/" target="_blank"><img src="7.jpeg" alt="Paleontology" width="200px" height="200px" class="pc"></a>
+							<a href="https://education.nationalgeographic.org/resource/sustainable-development-goals/" target="_blank"><img src="8.png" alt="Sustainable Development" width="200px" height="200px" class="pc"></a>
+							<a href="https://www.sciencefacts.net/types-of-ecosystems.html" target="_blank"><img src="4.jpeg" alt="Ecosystem" width="200px" height="200px" class="pc"></a>	
+					</div>
+				</div>
+			</div>
+			<div id="menu">
+				<div class="Nat">
+					<div class="gal">
+							<a href="https://www.foodnetwork.com/recipes/food-network-kitchen/classic-pizza-3568208" target="_blank"><img src="a.jpeg" alt="Pizza" width="200px" height="200px" class="pc"></a>
+							<a href="https://www.justonecookbook.com/sushi-rolls/" target="_blank"><img src="b.jpeg" alt="Sushi" width="200px" height="200px" class="pc"></a>
+							<a href="https://www.foodnetwork.com/recipes/alton-brown/all-american-beef-taco-recipe-2014469" target="_blank"><img src="c.jpeg" alt="Tacos" width="200px" height="200px" class="pc"></a>
+							<a href="https://www.recipetineats.com/chicken-pad-thai/" target="_blank"><img src="d.jpeg" alt="Pad Thai" width="200px" height="200px" class="pc"></a>
+							<a href="https://showmetheyummy.com/slow-cooker-ramen-noodles-recipe/" target="_blank"><img src="e.jpeg" alt="Ramen" width="200px" height="200px" class="pc"></a>
+							<a href="https://www.themediterraneandish.com/how-to-make-falafel/" target="_blank"><img src="f.jpeg" alt="Falafel" width="200px" height="200px" class="pc"></a>
+							<a href="https://en.wikipedia.org/wiki/Dosa_(food)" target="_blank"><img src="g.jpeg" alt="Dosa" width="200px" height="200px" class="pc"></a>
+							<a href="https://en.wikipedia.org/wiki/Burrito" target="_blank"><img src="h.jpeg" alt="Burrito" width="200px" height="200px" class="pc"></a>
+							<a href="https://www.koreanbapsang.com/baechu-kimchi-napa-cabbage-kimchi/" target="_blank"><img src="i.jpeg" alt="Kimchi" width="200px" height="200px" class="pc"></a>	
+					</div>
+					<div id="food">
+						<h1 class="fd">Foods</h1>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<p class="foot">Image Linking in HTML</p>
+		</footer>
+	</body>
+</html>
