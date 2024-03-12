@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS, Margin, and Padding Features</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            border-bottom: 1px solid rgb(177, 124, 45);
+            display: flex;
+            justify-content: center;
+            background-color: rgb(158, 103, 20);
+            color: rgb(243, 185, 118);
+        }
+        body {
+            background-color: rgb(235, 205, 162);
+        }
+        h4 {
+            margin-left: 5%;
+            color: rgb(133, 15, 15);
+            font-weight: bolder;
+        }
+        .below {
+            margin-left: 10%;
+            padding: 3%;
+            font-size: 110%;
+            border-left: 1px solid rgb(95, 59, 6);
+            border-right: 1px solid rgb(95, 59, 6);
+            width: 75%;
+            color: rgb(158, 103, 20);
+        }
+        .skills {
+            position: relative;
+        }
+        .forG {
+            display: grid;
+            grid-template-columns:repeat(3, 3fr);
+            gap: 3%;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Method Mkoma</h1>
+    </header>
+    <main>
+        <section class="intro">
+            <div class="top">
+                <h4>About Me</h4>
+            </div>
+            <div class="below">
+                <p>Hello there! I'm Method, a junior software developer eager to dive into the world of coding and technology. Though I may be at the beginning of my career, I bring enthusiasm, a hunger to learn, and a dedication to mastering the craft of software development.</p>
+                <p>My journey into software development began with a passion for problem-solving and creativity. I enjoy the challenge of taking complex problems and breaking them down into manageable steps, finding elegant solutions along the way. Whether it's writing clean, efficient code or designing user-friendly interfaces, I thrive on the process of bringing ideas to life through technology.</p>
+                <p>I'm constantly expanding my skill set, whether it's learning new programming languages, exploring different development methodologies, or staying up-to-date with the latest industry trends. I understand the importance of collaboration and communication in a team environment, and I'm always eager to contribute my ideas and work alongside others to achieve our goals.</p>
+            </div>
+        </section>
+        <section class="skills">
+            <h4>Skills</h4>
+            <div class="below">
+                <div class="forG">
+                    <div class="skill skill1">
+                        <img src="c.png" width="120" height="120" alt="C language">
+                    </div>
+                    <div class="skill skill2">
+                        <img src="py.png" width="120" height="120" alt="Python language">
+                    </div>
+                    <div class="skill skill3">
+                        <img src="java.png" width="120" height="120" alt="Java Language">
+                    </div>
+                    <div class="skill skill4">
+                        <img src="cplus.png" width="120" height="120" alt="C++ language">
+                    </div>
+                    <div class="skill skill5">
+                        <img src="html.png" width="120" height="120" alt="html language">
+                    </div>
+                    <div class="skill skill6">
+                        <img src="css.png" width="120" height="120" alt="css language">
+                    </div>
+                    <div class="skill skill7">
+                        <img src="csharp.webp" width="120" height="120" alt="c# language">
+                    </div>
+                    <div class="skill skill8">
+                        <img src="dart.webp" width="120" height="120" alt="dart language">
+                    </div>
+                    <div class="skill skill9">
+                        <img src="js.png" width="120" height="120" alt="js maker">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <h4>Contacts</h4>
+            <div class="below">
+                <p>Name: Method Developer</p>
+                <p>Email: method.dev@example.com</p>
+                <p>Phone: +123-456-7890</p>
+                <p>LinkedIn: linkedin.com/in/methoddeveloper</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
