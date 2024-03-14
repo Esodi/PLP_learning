@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+'''
+
+    In this project, you are tasked to create a program that automates searching for a word definition in a dictionary
+
+'''
 
 import difflib
 import json
